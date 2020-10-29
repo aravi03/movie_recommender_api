@@ -25,7 +25,7 @@ SECRET_KEY = '1!!0l-jlj@u-m7+562@e9y!h0u)-vdwnsol0&phm##xgr=%f1h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['flickdeets.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['flickdeets-api.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
