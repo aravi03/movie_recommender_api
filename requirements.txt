@@ -4,9 +4,9 @@ click==7.1.2
 Django
 gunicorn==20.0.4
 joblib
-mkl-fft==1.2.0
-mkl-random==1.1.1
-mkl-service==2.3.0
+mkl-fft
+mkl-random
+mkl-service
 nltk
 numpy
 pandas
@@ -20,5 +20,5 @@ scipy
 six==1.15.0
 sqlparse
 threadpoolctl
-tqdm 
+tqdm
 wincertstore==0.2
