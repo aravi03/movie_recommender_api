@@ -4,7 +4,7 @@ click==7.1.2
 Django
 gunicorn==20.0.4
 joblib
-mkl-fft==1.2.0
+mkl-fft
 mkl-random==1.1.1
 mkl-service==2.3.0
 nltk
