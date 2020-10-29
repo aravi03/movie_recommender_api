@@ -4,9 +4,9 @@ click==7.1.2
 Django
 gunicorn==20.0.4
 joblib
-mkl-fft
-mkl-random
-mkl-service
+mkl-fft==1.0.6
+mkl-random==1.1.1
+mkl-service==2.3.0
 nltk
 numpy
 pandas
