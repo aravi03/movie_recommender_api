@@ -102,7 +102,7 @@ def abc(id):
     # newmd=smd[['title', 'vote_count', 'vote_average', 'year', 'imdb_id', 'soup']]
     # newmd.to_csv('newsmd.csv')
 
-    smd = pd.read_csv('static/newsmd.csv')
+    smd = pd.read_csv('staticfiles/newsmd.csv')
     movie_name = smd.loc[smd['imdb_id'] == id]['title']
 
     count = CountVectorizer(analyzer='word', ngram_range=(1, 2), min_df=0, stop_words='english')
