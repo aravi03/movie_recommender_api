@@ -158,3 +158,6 @@ def index(request):
         val.append(json_data)
 
     return JsonResponse({"recom":val}, safe=False)
+
+def home(request):
+    return HttpResponse("Welcome to Home page")
